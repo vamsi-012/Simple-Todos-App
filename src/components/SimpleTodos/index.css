@@ -1,0 +1,36 @@
+/* Write your CSS here */
+
+.app-container {
+  background-color: #ffc2a0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todos-container {
+  background-color: #ffffff;
+  background-size: cover;
+  border-radius: 9px;
+  height: auto;
+  padding: 25px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todos-heading {
+  color: #ff8542;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+
+.todos-card-container {
+  margin-top: 20px;
+}
